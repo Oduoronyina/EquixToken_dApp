@@ -1,0 +1,217 @@
+.cardRectangleChild {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-11xl);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.cardRectangle {
+  align-self: stretch;
+  height: 292px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 300px;
+  min-height: 208px;
+}
+.div {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  line-height: 32px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+.estValue7250 {
+  width: 129px;
+  position: absolute;
+  margin: 0 !important;
+  top: 4px;
+  right: -0.3px;
+  line-height: 24px;
+  color: var(--shades-grey);
+  text-align: right;
+  display: none;
+  z-index: 1;
+}
+.semiDetachedHouse,
+.southfieldRoadOxford {
+  align-self: stretch;
+  position: relative;
+  line-height: 24px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.semiDetachedHouse {
+  font-weight: 600;
+  color: var(--color-goldenrod-200);
+}
+.southfieldRoadOxford {
+  color: var(--color-gray-1000);
+}
+.information {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-9xs);
+}
+.bedIcon,
+.div1,
+.information {
+  position: relative;
+}
+.bedIcon {
+  height: 24px;
+  width: 24px;
+}
+.div1 {
+  line-height: 20px;
+  display: inline-block;
+  min-width: 8px;
+}
+.bed {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-9xs);
+}
+.bathub,
+.div2 {
+  position: relative;
+}
+.bathub {
+  margin: 0;
+  height: 24px;
+  width: 24px;
+}
+.div2 {
+  line-height: 20px;
+  display: inline-block;
+  min-width: 8px;
+}
+.bathroom {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-9xs);
+}
+.chairsIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.semiFurnished {
+  position: relative;
+  line-height: 20px;
+  display: inline-block;
+  min-width: 100px;
+}
+.furniture {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-9xs);
+}
+.features,
+.infoFeatures {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+}
+.features {
+  border-radius: var(--br-xs);
+  background-color: var(--shades-black);
+  border: 1px solid var(--light-black);
+  flex-direction: row;
+  justify-content: space-between;
+  padding: var(--padding-sm) var(--padding-base);
+  gap: var(--gap-xl);
+  font-size: var(--font-size-sm);
+  color: var(--absolute-white);
+}
+.infoFeatures {
+  border-radius: var(--br-11xl);
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 var(--padding-base);
+  gap: var(--gap-base);
+}
+.carouselsIcon {
+  height: 12px;
+  width: 12px;
+  position: relative;
+}
+.forSale {
+  position: relative;
+  font-size: var(--body-copy-b1-regular-size);
+  line-height: 18px;
+  display: inline-block;
+  font-family: var(--font-manrope);
+  color: var(--shades-black);
+  text-align: left;
+  min-width: 77px;
+}
+.propertyCard,
+.tags {
+  border-radius: var(--br-11xl);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tags {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-9xs) var(--padding-5xs) var(--padding-9xs)
+    var(--padding-9xs);
+  background-color: var(--color-darkgray-100);
+  margin: 0 !important;
+  position: absolute;
+  top: 27px;
+  left: 0;
+  flex-direction: row;
+  gap: var(--gap-9xs);
+  white-space: nowrap;
+  z-index: 1;
+}
+.tags:hover {
+  background-color: var(--color-gray-200);
+}
+.propertyCard {
+  flex: 1;
+  box-shadow: var(--card-shadow-amb2);
+  background-color: var(--light-black);
+  border: 1px solid var(--light-gold-linear);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-direction: column;
+  padding: 0 0 var(--padding-sm);
+  position: relative;
+  gap: var(--gap-base);
+  min-width: 372px;
+  min-height: 380px;
+  max-height: 484px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-aliceblue-100);
+  font-family: var(--font-manrope);
+}
+@media screen and (max-width: 450px) {
+  .div {
+    font-size: var(--font-size-lgi);
+    line-height: 26px;
+  }
+  .features {
+    flex-wrap: wrap;
+  }
+}

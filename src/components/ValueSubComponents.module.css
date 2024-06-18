@@ -1,0 +1,75 @@
+.subtractIcon {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 1;
+}
+.emptyValue {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 35px;
+}
+.autoLayoutHorizontal {
+  border-radius: var(--br-7xs);
+  background-color: var(--color-gray-1600);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs);
+  z-index: 2;
+}
+.totalAssetValue {
+  position: relative;
+  font-size: var(--font-size-base);
+  font-weight: 500;
+  color: var(--color-dimgray-100);
+  display: inline-block;
+  min-width: 129px;
+  z-index: 2;
+}
+.balanceSeparator {
+  position: relative;
+  font-size: var(--font-size-11xl);
+  letter-spacing: 0.1em;
+  font-weight: 600;
+  color: var(--color-gray-600);
+  white-space: nowrap;
+  z-index: 2;
+}
+.valueSubComponents {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xs) var(--padding-xl) var(--padding-mini)
+    var(--padding-5xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-5xs);
+  min-width: 155px;
+  text-align: left;
+  font-size: var(--body-copy-b1-regular-size);
+  color: var(--color-darkslategray-200);
+  font-family: var(--font-manrope);
+}
+@media screen and (max-width: 975px) {
+  .balanceSeparator {
+    font-size: var(--font-size-5xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .balanceSeparator {
+    font-size: var(--body-copy-b4-medium-size);
+  }
+}

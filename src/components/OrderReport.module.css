@@ -1,0 +1,750 @@
+.investmentDetails {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 140%;
+  font-weight: 600;
+  font-family: inherit;
+}
+.fixText {
+  width: 123px;
+  border: 0;
+  outline: 0;
+  font-family: var(--font-manrope);
+  font-size: var(--body-copy-b4-medium-size);
+  background-color: var(--buttongrad);
+  height: 26px;
+  position: relative;
+  line-height: 26px;
+  color: var(--gray-300);
+  text-align: left;
+  display: inline-block;
+  min-width: 123px;
+  padding: 0;
+}
+.searchField {
+  flex: 1;
+  border-radius: var(--br-xs);
+  border: 1px solid var(--amber-100);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) var(--padding-base);
+  min-width: 123px;
+  white-space: nowrap;
+}
+.filterIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.filters {
+  position: relative;
+  font-size: var(--body-copy-b4-medium-size);
+  line-height: 26px;
+  font-weight: 500;
+  font-family: var(--font-manrope);
+  color: var(--absolute-white);
+  text-align: center;
+  display: inline-block;
+  min-width: 52px;
+}
+.buttons {
+  cursor: pointer;
+  border: 1.5px solid var(--amber-600);
+  padding: var(--padding-11xs) var(--padding-sm);
+  background-color: var(--buttongrad);
+  width: 116px;
+  filter: drop-shadow(0 0 1px rgba(12, 26, 75, 0.24))
+    drop-shadow(0 3px 8px rgba(50, 50, 71, 0.05));
+  border-radius: var(--br-xs);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-5xs);
+}
+.buttons:hover {
+  background-color: var(--color-darkgoldenrod-300);
+  border: 1.5px solid var(--color-darkgoldenrod-200);
+  box-sizing: border-box;
+}
+.searchIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.search {
+  position: relative;
+  font-size: var(--body-copy-b4-medium-size);
+  line-height: 26px;
+  font-weight: 500;
+  font-family: var(--font-manrope);
+  color: var(--shades-black);
+  text-align: center;
+  display: inline-block;
+  min-width: 60px;
+}
+.buttons1,
+.findPropertyField,
+.title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.buttons1 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-9xs) var(--padding-3xl);
+  background-color: var(--amber-600);
+  box-shadow: var(--card-shadow-amb2);
+  border-radius: var(--br-xs);
+  justify-content: center;
+  gap: var(--gap-5xs);
+}
+.buttons1:hover {
+  background-color: var(--color-darkgoldenrod-200);
+}
+.findPropertyField,
+.title {
+  max-width: 100%;
+}
+.findPropertyField {
+  width: 561px;
+  box-shadow: var(--card-shadow-amb1);
+  border-radius: var(--br-xs);
+  justify-content: center;
+  padding: var(--padding-7xs-5) var(--padding-3xs);
+  box-sizing: border-box;
+  gap: var(--gap-base);
+  opacity: 0.9;
+}
+.title {
+  align-self: stretch;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--absolute-white);
+}
+.assetType {
+  width: 103px;
+  position: relative;
+  line-height: 20px;
+  font-weight: 600;
+  text-align: left;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.tokens {
+  line-height: 20px;
+  min-width: 48px;
+}
+.status,
+.tokens,
+.unitPrice {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+}
+.unitPrice {
+  width: 66px;
+  line-height: 20px;
+  min-width: 66px;
+}
+.status {
+  width: 55px;
+  line-height: 22px;
+  flex-shrink: 0;
+}
+.content {
+  width: 85px;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-mediumaquamarine-100);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) var(--padding-xs) 0;
+  box-sizing: border-box;
+  color: var(--accents-green);
+}
+.holdingsValue,
+.marketValue {
+  position: relative;
+  line-height: 20px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 87px;
+}
+.holdingsValue {
+  width: 102px;
+  color: var(--absolute-white);
+  flex-shrink: 0;
+  min-width: 102px;
+}
+.tableColumns {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.dividerIcon,
+.tableHeader {
+  align-self: stretch;
+  max-width: 100%;
+}
+.tableHeader {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-smi) 0 var(--padding-5xs);
+  box-sizing: border-box;
+}
+.dividerIcon {
+  position: relative;
+  overflow: hidden;
+  max-height: 100%;
+}
+.reportContent,
+.table {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.table {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-7xs);
+}
+.reportContent {
+  width: 891.2px;
+  flex-direction: row;
+  padding: 0 var(--padding-11xs);
+  box-sizing: border-box;
+}
+.assetName,
+.menu {
+  line-height: 20px;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.assetName {
+  width: 103px;
+  position: relative;
+  font-weight: 600;
+}
+.menu {
+  width: 52px;
+}
+.menu,
+.status1,
+.unitPrice1 {
+  position: relative;
+  font-weight: 600;
+}
+.unitPrice1 {
+  height: 40px;
+  width: 63px;
+  letter-spacing: -0.2px;
+  line-height: 140%;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.status1 {
+  align-self: stretch;
+  line-height: 22px;
+}
+.content2 {
+  width: 85px;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-mediumaquamarine-100);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-11xs) var(--padding-mini);
+  box-sizing: border-box;
+  color: var(--accents-green);
+}
+.holdingsValue1,
+.marketValue1 {
+  position: relative;
+  line-height: 20px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 87px;
+}
+.holdingsValue1 {
+  width: 102px;
+  color: var(--absolute-white);
+  flex-shrink: 0;
+  min-width: 102px;
+}
+.content1,
+.row3 {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+}
+.content1 {
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 var(--padding-6xl) 0 0;
+  gap: var(--gap-xl);
+}
+.row3 {
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.assetName1,
+.menu1 {
+  line-height: 20px;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.assetName1 {
+  width: 103px;
+  position: relative;
+  font-weight: 600;
+}
+.menu1 {
+  width: 52px;
+}
+.menu1,
+.status2,
+.unitPrice2 {
+  position: relative;
+  font-weight: 600;
+}
+.unitPrice2 {
+  height: 40px;
+  width: 63px;
+  letter-spacing: -0.2px;
+  line-height: 140%;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.status2 {
+  align-self: stretch;
+  line-height: 22px;
+}
+.content4 {
+  width: 85px;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-mediumaquamarine-100);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-11xs) var(--padding-mini);
+  box-sizing: border-box;
+  color: var(--accents-green);
+}
+.holdingsValue2,
+.marketValue2 {
+  position: relative;
+  line-height: 20px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 87px;
+}
+.holdingsValue2 {
+  width: 102px;
+  color: var(--absolute-white);
+  flex-shrink: 0;
+  min-width: 102px;
+}
+.content3,
+.row4 {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+}
+.content3 {
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 var(--padding-6xl) 0 0;
+  gap: var(--gap-xl);
+}
+.row4 {
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.assetName2,
+.menu2 {
+  line-height: 20px;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.assetName2 {
+  width: 103px;
+  position: relative;
+  font-weight: 600;
+}
+.menu2 {
+  width: 52px;
+}
+.menu2,
+.status3,
+.unitPrice3 {
+  position: relative;
+  font-weight: 600;
+}
+.unitPrice3 {
+  height: 40px;
+  width: 63px;
+  letter-spacing: -0.2px;
+  line-height: 140%;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.status3 {
+  align-self: stretch;
+  line-height: 22px;
+}
+.content6 {
+  width: 85px;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-mediumaquamarine-100);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-11xs) var(--padding-mini);
+  box-sizing: border-box;
+  color: var(--accents-green);
+}
+.holdingsValue3,
+.marketValue3 {
+  position: relative;
+  line-height: 20px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 87px;
+}
+.holdingsValue3 {
+  width: 102px;
+  color: var(--absolute-white);
+  flex-shrink: 0;
+  min-width: 102px;
+}
+.content5,
+.row5 {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+}
+.content5 {
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 var(--padding-6xl) 0 0;
+  gap: var(--gap-xl);
+}
+.row5 {
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.assetName3,
+.menu3 {
+  line-height: 20px;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.assetName3 {
+  width: 103px;
+  position: relative;
+  font-weight: 600;
+}
+.menu3 {
+  width: 52px;
+}
+.menu3,
+.status4,
+.unitPrice4 {
+  position: relative;
+  font-weight: 600;
+}
+.unitPrice4 {
+  height: 40px;
+  width: 63px;
+  letter-spacing: -0.2px;
+  line-height: 140%;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.status4 {
+  align-self: stretch;
+  line-height: 22px;
+}
+.content8 {
+  width: 85px;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-mediumaquamarine-100);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-11xs) var(--padding-mini);
+  box-sizing: border-box;
+  color: var(--accents-green);
+}
+.holdingsValue4,
+.marketValue4 {
+  position: relative;
+  line-height: 20px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 87px;
+}
+.holdingsValue4 {
+  width: 102px;
+  color: var(--absolute-white);
+  flex-shrink: 0;
+  min-width: 102px;
+}
+.content7,
+.row6 {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+}
+.content7 {
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 var(--padding-6xl) 0 0;
+  gap: var(--gap-xl);
+}
+.row6 {
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.assetName4,
+.menu4 {
+  line-height: 20px;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.assetName4 {
+  width: 103px;
+  position: relative;
+  font-weight: 600;
+}
+.menu4 {
+  width: 52px;
+}
+.menu4,
+.status5,
+.unitPrice5 {
+  position: relative;
+  font-weight: 600;
+}
+.unitPrice5 {
+  height: 40px;
+  width: 63px;
+  letter-spacing: -0.2px;
+  line-height: 140%;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.status5 {
+  align-self: stretch;
+  line-height: 22px;
+}
+.content10 {
+  width: 85px;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-mediumaquamarine-100);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-11xs) var(--padding-mini);
+  box-sizing: border-box;
+  color: var(--accents-green);
+}
+.holdingsValue5,
+.marketValue5 {
+  position: relative;
+  line-height: 20px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 87px;
+}
+.holdingsValue5 {
+  width: 102px;
+  color: var(--absolute-white);
+  flex-shrink: 0;
+  min-width: 102px;
+}
+.content9,
+.row7 {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+}
+.content9 {
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 var(--padding-6xl) 0 0;
+  gap: var(--gap-xl);
+}
+.row7 {
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.assetName5,
+.menu5 {
+  line-height: 20px;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.assetName5 {
+  width: 103px;
+  position: relative;
+  font-weight: 600;
+}
+.menu5 {
+  width: 52px;
+}
+.menu5,
+.status6,
+.unitPrice6 {
+  position: relative;
+  font-weight: 600;
+}
+.unitPrice6 {
+  height: 40px;
+  width: 63px;
+  letter-spacing: -0.2px;
+  line-height: 140%;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.status6 {
+  align-self: stretch;
+  line-height: 22px;
+}
+.content12 {
+  width: 85px;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-mediumaquamarine-100);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-11xs) var(--padding-mini);
+  box-sizing: border-box;
+  color: var(--accents-green);
+}
+.holdingsValue6,
+.marketValue6 {
+  position: relative;
+  line-height: 20px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 87px;
+}
+.holdingsValue6 {
+  width: 102px;
+  color: var(--absolute-white);
+  flex-shrink: 0;
+  min-width: 102px;
+}
+.content11 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0 var(--padding-6xl) 0 0;
+  gap: var(--gap-xl);
+}
+.orderReport,
+.row8,
+.rows,
+.rows1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.row8 {
+  align-self: stretch;
+  flex-direction: column;
+}
+.orderReport,
+.rows,
+.rows1 {
+  max-width: 100%;
+}
+.rows1 {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-8xl);
+}
+.orderReport,
+.rows {
+  box-sizing: border-box;
+}
+.rows {
+  width: 910px;
+  overflow: hidden;
+  flex-direction: row;
+  padding: 0 var(--padding-9xs);
+}
+.orderReport {
+  width: 1020px;
+  border-radius: var(--br-23xl);
+  background-color: var(--light-black);
+  flex-direction: column;
+  padding: var(--padding-14xl) var(--padding-21xl) var(--padding-4xs)
+    var(--padding-36xl);
+  gap: var(--gap-base);
+  z-index: 1;
+  text-align: center;
+  font-size: var(--font-size-sm);
+  color: var(--color-gainsboro-200);
+  font-family: var(--font-manrope);
+}
+@media screen and (max-width: 1275px) {
+  .title {
+    flex-wrap: wrap;
+  }
+  .orderReport {
+    padding-left: var(--padding-8xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 825px) {
+  .content1,
+  .content11,
+  .content3,
+  .content5,
+  .content7,
+  .content9,
+  .findPropertyField,
+  .tableColumns {
+    flex-wrap: wrap;
+  }
+  .orderReport {
+    padding-top: var(--padding-2xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .investmentDetails {
+    font-size: var(--font-size-base);
+    line-height: 22px;
+  }
+}

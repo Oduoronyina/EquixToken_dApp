@@ -1,0 +1,409 @@
+.equixtoken {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.05em;
+  line-height: 110%;
+  font-weight: 800;
+  font-family: inherit;
+}
+.email,
+.signInTo {
+  position: relative;
+  display: inline-block;
+}
+.signInTo {
+  margin: 0;
+  font-size: inherit;
+  line-height: 45px;
+  font-weight: 700;
+  font-family: inherit;
+  max-width: 100%;
+}
+.email {
+  text-decoration: none;
+  font-size: var(--font-size-base);
+  line-height: 24px;
+  font-weight: 500;
+  font-family: var(--font-manrope);
+  color: var(--dark);
+  text-align: left;
+  min-width: 41px;
+}
+.frameChild {
+  height: 56px;
+  width: 428px;
+  position: relative;
+  border-radius: var(--br-5xs);
+  background-color: var(--absolute-white);
+  border: 1px solid var(--color-orange);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.enterYourEmail {
+  width: 119px;
+  border: 0;
+  outline: 0;
+  font-family: var(--font-manrope);
+  font-size: var(--font-size-base);
+  background-color: var(--buttongrad);
+  height: 24px;
+  position: relative;
+  line-height: 24px;
+  color: var(--color-slategray-200);
+  text-align: left;
+  display: inline-block;
+  padding: 0;
+  z-index: 1;
+}
+.envelopeIcon {
+  height: 22px;
+  width: 22px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.inputFields,
+.rectangleParent {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.rectangleParent {
+  border-radius: var(--br-5xs);
+  background-color: var(--absolute-white);
+  border: 1px solid var(--color-orange);
+  flex-direction: row;
+  justify-content: space-between;
+  padding: var(--padding-mini) var(--padding-2xl) var(--padding-smi)
+    var(--padding-5xl);
+  gap: var(--gap-xl);
+}
+.inputFields {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-10xs);
+  gap: var(--gap-3xs);
+}
+.password {
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 24px;
+  font-weight: 500;
+  font-family: var(--font-manrope);
+  color: var(--dark);
+  text-align: left;
+  display: inline-block;
+  min-width: 73px;
+}
+.frameItem {
+  height: 56px;
+  width: 428px;
+  position: relative;
+  border-radius: var(--br-5xs);
+  background-color: var(--absolute-white);
+  border: 1px solid var(--stroke);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.characters1Capital {
+  width: 218px;
+  border: 0;
+  outline: 0;
+  font-family: var(--font-manrope);
+  font-size: var(--font-size-base);
+  background-color: var(--buttongrad);
+  height: 24px;
+  position: relative;
+  line-height: 24px;
+  color: var(--color-slategray-200);
+  text-align: left;
+  display: inline-block;
+  padding: 0;
+  z-index: 1;
+}
+.lockAltIcon {
+  height: 22px;
+  width: 22px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.inputFields1,
+.rectangleGroup {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.rectangleGroup {
+  border-radius: var(--br-5xs);
+  background-color: var(--absolute-white);
+  border: 1px solid var(--stroke);
+  flex-direction: row;
+  justify-content: space-between;
+  padding: var(--padding-mini) var(--padding-2xl) var(--padding-smi)
+    var(--padding-5xl);
+  gap: var(--gap-xl);
+}
+.inputFields1 {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-xs);
+  gap: var(--gap-3xs);
+}
+.buttonShape {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-goldenrod-300);
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+.signIn1 {
+  position: absolute;
+  top: 16px;
+  left: 188px;
+  font-size: var(--font-size-base);
+  line-height: 24px;
+  display: inline-block;
+  font-family: var(--font-manrope);
+  color: var(--color-gray-900);
+  text-align: center;
+  min-width: 53px;
+  z-index: 1;
+}
+.buttonShapeParent {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--buttongrad);
+  height: 56px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+}
+.frameInner,
+.signInButton {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.signInButton {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-6xs);
+}
+.frameInner {
+  height: 56px;
+  width: 428px;
+  position: relative;
+  border-radius: var(--br-5xs);
+  background-color: var(--gray);
+  border: 1px solid var(--stroke);
+  display: none;
+}
+.google11 {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.googleIcon {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+}
+.signInWith {
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 24px;
+  font-family: var(--font-manrope);
+  color: var(--text-color);
+  text-align: left;
+  z-index: 1;
+}
+.rectangleContainer {
+  cursor: pointer;
+  border: 1px solid var(--stroke);
+  padding: var(--padding-sm) var(--padding-xl);
+  background-color: var(--gray);
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-sm);
+  max-width: 100%;
+}
+.dontHaveAny,
+.signUp {
+  font-family: var(--font-manrope);
+  color: var(--text-color);
+}
+.signUp {
+  font-weight: 800;
+  color: var(--color-goldenrod-300);
+}
+.dontHaveAnyContainer,
+.forgotPassword {
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 24px;
+  text-align: left;
+  cursor: pointer;
+}
+.forgotPassword {
+  font-weight: 600;
+  font-family: var(--font-manrope);
+  color: var(--text-color);
+  text-align: center;
+}
+.footerLinks,
+.forgotPasswordLink,
+.links {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.forgotPasswordLink {
+  flex-direction: row;
+  padding: 0 var(--padding-33xl) 0 var(--padding-37xl);
+  margin-top: -1px;
+}
+.footerLinks,
+.links {
+  flex-direction: column;
+}
+.footerLinks {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-5xl) 0 var(--padding-xl);
+}
+.credentials,
+.signIn {
+  align-self: stretch;
+  flex-direction: column;
+  max-width: 100%;
+}
+.credentials {
+  margin: 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-smi);
+}
+.signIn {
+  gap: var(--gap-16xl);
+  font-size: var(--font-size-14xl);
+  color: var(--tailgrids-black-color);
+}
+.content,
+.login,
+.main,
+.signIn {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.content {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-83xl);
+  max-width: 100%;
+}
+.login,
+.main {
+  box-sizing: border-box;
+}
+.main {
+  width: 428px;
+  flex-direction: column;
+  padding: var(--padding-25xl) 0 0;
+  min-width: 428px;
+  max-width: 100%;
+}
+.login {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-whitesmoke-100);
+  overflow: hidden;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-116xl);
+  gap: var(--gap-179xl);
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--color-black);
+  font-family: var(--font-manrope);
+}
+@media screen and (max-width: 1125px) {
+  .main {
+    flex: 1;
+  }
+  .login {
+    flex-wrap: wrap;
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .equixtoken {
+    font-size: var(--font-size-5xl);
+    line-height: 26px;
+  }
+  .signInTo {
+    font-size: var(--font-size-7xl);
+    line-height: 36px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .main {
+    padding-top: var(--padding-10xl);
+    box-sizing: border-box;
+    min-width: 100%;
+  }
+  .login {
+    gap: var(--gap-80xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .equixtoken {
+    font-size: var(--body-copy-b4-medium-size);
+    line-height: 20px;
+  }
+  .signInTo {
+    font-size: var(--font-size-xl);
+    line-height: 27px;
+  }
+  .signIn {
+    gap: var(--gap-mid);
+  }
+  .content {
+    gap: var(--gap-32xl);
+  }
+  .login {
+    gap: var(--gap-30xl);
+  }
+}

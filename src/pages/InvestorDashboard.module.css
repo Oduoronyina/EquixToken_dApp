@@ -1,0 +1,416 @@
+.performance {
+  width: 860px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.sales1 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 20px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.salesLabel {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) 0 0;
+}
+.rectangle {
+  height: 28px;
+  width: 104px;
+  position: relative;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-gray-100);
+  border: 0.6px solid var(--color-lightgray-100);
+  box-sizing: border-box;
+  display: none;
+}
+.october {
+  position: relative;
+  line-height: 10px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 47px;
+  z-index: 1;
+}
+.frame,
+.shapeIcon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-11xl);
+}
+.shapeIcon {
+  height: 60%;
+  top: 20%;
+  bottom: 20%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 1;
+}
+.iconChevronDown {
+  height: 10px;
+  width: 10px;
+  position: relative;
+  z-index: 1;
+}
+.monthSelector,
+.sales {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.monthSelector {
+  border-radius: var(--br-11xl);
+  background-color: var(--color-gray-100);
+  border: 0.6px solid var(--color-lightgray-100);
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-mini);
+  gap: var(--gap-mini);
+  text-align: right;
+  font-size: var(--body-copy-b1-regular-size);
+  color: var(--color-black);
+}
+.sales {
+  align-self: stretch;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.div,
+.div1,
+.div2,
+.div3,
+.div4 {
+  position: relative;
+  line-height: 9px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 32px;
+}
+.div1,
+.div2,
+.div3,
+.div4 {
+  min-width: 26px;
+}
+.chartGrid {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-31xl);
+}
+.lineIcon {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  mix-blend-mode: normal;
+}
+.combinedShapeIcon,
+.graphIcon {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+.graphIcon {
+  height: 195.4px;
+  margin: 0 !important;
+  right: 0;
+  bottom: -4px;
+  max-width: 100%;
+  overflow: hidden;
+}
+.combinedShapeIcon {
+  top: 0;
+  border-radius: var(--br-11xl);
+  height: 100%;
+}
+.chartLabel {
+  position: absolute;
+  top: 2px;
+  left: 10px;
+  display: inline-block;
+  min-width: 64px;
+  z-index: 2;
+}
+.chartAxis {
+  height: 25.5px;
+  width: 80px;
+  position: relative;
+}
+.pointIcon {
+  height: 205px;
+  width: 938px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: -5px;
+  left: -3px;
+  z-index: 2;
+}
+.chart,
+.chartContainer,
+.lineParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.lineParent {
+  align-self: stretch;
+  flex-direction: row;
+  padding: var(--padding-6xs) 240px 204.5px;
+  position: relative;
+}
+.chart,
+.chartContainer {
+  max-width: 100%;
+}
+.chart {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-9xs) 0 0;
+  box-sizing: border-box;
+  min-width: 649px;
+}
+.chartContainer {
+  align-self: stretch;
+  flex-direction: row;
+  gap: 44px;
+}
+.k,
+.k1,
+.k10,
+.k11,
+.k2,
+.k3,
+.k4,
+.k5,
+.k6,
+.k7,
+.k8,
+.k9 {
+  position: relative;
+  line-height: 9px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 14px;
+}
+.k1,
+.k10,
+.k11,
+.k2,
+.k3,
+.k4,
+.k5,
+.k6,
+.k7,
+.k8,
+.k9 {
+  min-width: 20px;
+}
+.k10,
+.k11,
+.k2,
+.k3,
+.k4,
+.k5,
+.k6,
+.k7,
+.k8,
+.k9 {
+  min-width: 19px;
+}
+.k10,
+.k11,
+.k3,
+.k4,
+.k5,
+.k6,
+.k7,
+.k8,
+.k9 {
+  min-width: 22px;
+}
+.k10,
+.k11,
+.k4,
+.k5,
+.k6,
+.k7,
+.k8,
+.k9 {
+  min-width: 21px;
+}
+.k10,
+.k11,
+.k7,
+.k8,
+.k9 {
+  min-width: 22px;
+}
+.k10,
+.k11,
+.k8,
+.k9 {
+  min-width: 21px;
+}
+.k11 {
+  min-width: 22px;
+}
+.chartLegend,
+.legendItems {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.legendItems {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.chartLegend {
+  width: 1035px;
+  justify-content: flex-end;
+  padding: 0 var(--padding-18xl);
+  box-sizing: border-box;
+  text-align: center;
+}
+.investmentPerformance,
+.salesChart {
+  flex-direction: column;
+  max-width: 100%;
+}
+.salesChart {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  font-size: var(--body-copy-b1-regular-size);
+}
+.investmentPerformance {
+  width: 1138px;
+  border-radius: var(--br-11xl);
+  background-color: var(--light-black);
+  padding: var(--padding-13xl) var(--padding-13xl) var(--padding-39xl);
+  gap: 48px;
+  z-index: 1;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--absolute-white);
+  font-family: var(--font-manrope);
+}
+.investmentPerformance,
+.investorDashboard,
+.mainBgColor {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.mainBgColor {
+  width: 1287px;
+  border-radius: var(--br-26xl);
+  background-color: var(--color-gray-900);
+  flex-direction: column;
+  padding: var(--padding-29xl) var(--padding-42xl) var(--padding-18xl);
+  gap: var(--gap-32xl);
+  max-width: 100%;
+}
+.investorDashboard {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-gray-400);
+  flex-direction: row;
+  padding: var(--padding-11xl) var(--padding-20xl) var(--padding-29xl);
+  gap: 58px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1575px) {
+  .investorDashboard {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1275px) {
+  .chart {
+    min-width: 100%;
+  }
+  .chartContainer {
+    flex-wrap: wrap;
+  }
+  .mainBgColor {
+    padding: var(--padding-12xl) var(--padding-11xl) var(--padding-5xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 825px) {
+  .sales {
+    flex-wrap: wrap;
+  }
+  .lineParent {
+    padding-left: var(--padding-101xl);
+    padding-right: var(--padding-101xl);
+    box-sizing: border-box;
+  }
+  .chartContainer {
+    gap: var(--gap-3xl);
+  }
+  .k {
+    width: 100%;
+    height: 14px;
+  }
+  .legendItems {
+    flex-wrap: wrap;
+  }
+  .investmentPerformance {
+    gap: var(--gap-5xl);
+  }
+  .mainBgColor {
+    gap: var(--gap-6xl);
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .investorDashboard {
+    gap: var(--gap-10xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .sales1 {
+    font-size: var(--font-size-lgi);
+    line-height: 16px;
+  }
+  .lineParent {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .investmentPerformance {
+    padding-top: var(--padding-2xl);
+    padding-bottom: var(--padding-19xl);
+    box-sizing: border-box;
+  }
+}

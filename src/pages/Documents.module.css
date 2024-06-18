@@ -1,0 +1,95 @@
+.yourAssetsWill {
+  margin: 0;
+  width: 188.5px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.empty,
+.emptyAssets {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.empty {
+  width: 437px;
+  border-radius: var(--br-11xl);
+  background-color: var(--light-black);
+  border: 1px solid rgba(223, 195, 43, 0.2);
+  padding: var(--padding-19xl-1) var(--padding-xl) var(--padding-19xl);
+}
+.emptyAssets {
+  height: 141px;
+  padding: 0 0 0 var(--padding-12xs);
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: #a99865;
+  font-family: var(--font-manrope);
+}
+.documents,
+.mainBgColor {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.mainBgColor {
+  flex: 1;
+  border-radius: var(--br-26xl);
+  background-color: var(--color-gray-900);
+  flex-direction: column;
+  align-items: flex-end;
+  padding: var(--padding-21xl) var(--padding-28xl) 259px;
+  gap: 171px;
+  max-width: calc(100% - 272px);
+}
+.documents {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-gray-400);
+  flex-direction: row;
+  align-items: flex-start;
+  padding: var(--padding-11xl) var(--padding-20xl) var(--padding-29xl);
+  gap: 45px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1100px) {
+  .mainBgColor {
+    gap: 85px;
+    padding: var(--padding-7xl) var(--padding-4xl) 168px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1025px) {
+  .mainBgColor {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 750px) {
+  .mainBgColor {
+    gap: 43px;
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-90xl);
+    box-sizing: border-box;
+  }
+  .documents {
+    gap: var(--gap-3xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .yourAssetsWill {
+    font-size: var(--font-size-base);
+  }
+  .mainBgColor {
+    gap: var(--gap-2xl);
+  }
+}

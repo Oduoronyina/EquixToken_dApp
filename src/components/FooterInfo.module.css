@@ -1,0 +1,144 @@
+.iconBackground {
+  height: 40px;
+  width: 40px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--shades-off-white);
+}
+.facebookIcon {
+  height: 24px;
+  width: 24px;
+  position: absolute;
+  margin: 0 !important;
+  top: calc(50% - 12px);
+  left: calc(50% - 12px);
+  border-radius: var(--br-9xs);
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.bubbleIcons {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  gap: var(--gap-3xs);
+}
+.bubbleIconsChild {
+  height: 40px;
+  width: 40px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--shades-off-white);
+}
+.linkedinIcon {
+  height: 24px;
+  width: 24px;
+  position: absolute;
+  margin: 0 !important;
+  top: calc(50% - 12px);
+  left: calc(50% - 12px);
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.bubbleIcons1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  gap: var(--gap-3xs);
+}
+.bubbleIconsItem {
+  height: 40px;
+  width: 40px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--shades-off-white);
+}
+.youtubeIcon {
+  height: 24px;
+  width: 24px;
+  position: absolute;
+  margin: 0 !important;
+  top: calc(50% - 12px);
+  left: calc(50% - 12px);
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.bubbleIcons2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  gap: var(--gap-3xs);
+}
+.bubbleIconsInner {
+  height: 40px;
+  width: 40px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--shades-off-white);
+}
+.instagramIcon {
+  height: 24px;
+  width: 24px;
+  position: absolute;
+  margin: 0 !important;
+  top: calc(50% - 12px);
+  left: calc(50% - 12px);
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.bubbleIcons3,
+.socialIcons {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.bubbleIcons3 {
+  justify-content: flex-start;
+  position: relative;
+  gap: var(--gap-3xs);
+}
+.socialIcons {
+  align-self: stretch;
+  justify-content: flex-end;
+  gap: var(--gap-5xl);
+  z-index: 2;
+}
+.allRightsReserved,
+.span {
+  font-weight: 500;
+}
+.equixtokenCapitalAllContainer {
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 2;
+}
+.footerInfo {
+  width: 1240px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-7xl);
+  max-width: 100%;
+  text-align: right;
+  font-size: var(--font-size-base);
+  color: var(--absolute-white);
+  font-family: var(--font-manrope);
+}
+@media screen and (max-width: 450px) {
+  .socialIcons {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

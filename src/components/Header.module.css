@@ -1,0 +1,242 @@
+.equixtoken {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.05em;
+  line-height: 110%;
+  font-weight: 800;
+  font-family: inherit;
+}
+.equixtokenWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 88px 0;
+}
+.equixtoken1,
+.introducing {
+  margin: 0;
+}
+.introducingEquixtoken {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.05em;
+  line-height: 110%;
+  font-weight: 800;
+  font-family: inherit;
+}
+.forMarketplaceSellers,
+.offersTheBest {
+  font-weight: 500;
+}
+.forMarketplaceSellersContainer {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  line-height: 160%;
+  display: inline-block;
+  max-width: 100%;
+  font-family: inherit;
+}
+.forMarketplaceSellersLookinWrapper,
+.introducingEquixtokenParent {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.forMarketplaceSellersLookinWrapper {
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-9xs);
+  box-sizing: border-box;
+  font-size: var(--font-size-5xl);
+}
+.introducingEquixtokenParent {
+  flex-direction: column;
+  gap: var(--gap-13xl);
+  font-size: 80px;
+}
+.emailBlack24dp11 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.yourEmailAddress {
+  flex: 1;
+  position: relative;
+}
+.emailBlack24dp11Parent,
+.frameWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.emailBlack24dp11Parent {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-xs);
+}
+.frameWrapper {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-base) 0 0;
+  box-sizing: border-box;
+  min-width: 179px;
+}
+.getEarlyAccess {
+  position: relative;
+  font-size: var(--body-copy-b4-medium-size);
+  font-weight: 800;
+  font-family: var(--font-manrope);
+  color: var(--absolute-white);
+  text-align: left;
+}
+.frameContainer,
+.getEarlyAccessWrapper {
+  border-radius: var(--br-5xs);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.getEarlyAccessWrapper {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-base) var(--padding-13xl);
+  background-color: var(--color-goldenrod-300);
+  white-space: nowrap;
+}
+.getEarlyAccessWrapper:hover {
+  background-color: var(--color-darkgoldenrod-100);
+}
+.frameContainer {
+  align-self: stretch;
+  box-shadow: var(--button-shadow-light);
+  background-color: var(--absolute-white);
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  padding: var(--padding-7xs) var(--padding-6xs) var(--padding-7xs)
+    var(--padding-4xl);
+  gap: var(--gap-11xs);
+}
+.noCreditCard {
+  position: relative;
+  line-height: 17px;
+  font-weight: 500;
+}
+.noCreditCardRequiredCanceWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-9xs);
+  font-size: var(--font-size-sm);
+}
+.frameGroup {
+  width: 540px;
+  flex-direction: column;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-base);
+  font-size: var(--body-copy-b4-medium-size);
+  color: var(--color-gray-1100);
+}
+.frameGroup,
+.frameParent,
+.header,
+.headerInner {
+  max-width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-21xl);
+}
+.header,
+.headerInner {
+  box-sizing: border-box;
+}
+.headerInner {
+  width: 570px;
+  flex-direction: column;
+  padding: var(--padding-25xl) 0 0;
+  min-width: 570px;
+}
+.header {
+  width: 1440px;
+  background-color: var(--color-whitesmoke-100);
+  overflow: hidden;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-116xl);
+  gap: var(--gap-37xl);
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--color-black);
+  font-family: var(--font-manrope);
+}
+@media screen and (max-width: 1125px) {
+  .headerInner {
+    flex: 1;
+  }
+  .header {
+    flex-wrap: wrap;
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .equixtoken {
+    font-size: var(--font-size-5xl);
+    line-height: 26px;
+  }
+  .introducingEquixtoken {
+    font-size: 40px;
+    line-height: 53px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .introducingEquixtokenParent {
+    gap: var(--gap-base);
+  }
+  .frameParent {
+    gap: var(--gap-xl);
+  }
+  .headerInner {
+    padding-top: var(--padding-10xl);
+    box-sizing: border-box;
+    min-width: 100%;
+  }
+  .header {
+    gap: var(--gap-9xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .equixtoken {
+    font-size: var(--body-copy-b4-medium-size);
+    line-height: 20px;
+  }
+  .introducingEquixtoken {
+    font-size: var(--font-size-5xl);
+    line-height: 35px;
+  }
+  .forMarketplaceSellersContainer {
+    font-size: var(--font-size-lgi);
+    line-height: 31px;
+  }
+  .frameContainer {
+    flex-wrap: wrap;
+  }
+}

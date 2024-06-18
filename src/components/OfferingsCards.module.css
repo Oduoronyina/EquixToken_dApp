@@ -1,0 +1,970 @@
+.cardRectangleChild {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-11xl);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.cardRectangle {
+  width: 393px;
+  height: 292px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 300px;
+  min-height: 208px;
+  max-width: 124%;
+  flex-shrink: 0;
+}
+.div {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  line-height: 32px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+.estValue7250 {
+  width: 129px;
+  position: absolute;
+  margin: 0 !important;
+  top: 4px;
+  right: 0.3px;
+  line-height: 24px;
+  color: var(--shades-grey);
+  text-align: right;
+  display: none;
+  z-index: 1;
+}
+.semiDetachedHouse,
+.southfieldRoadOxford {
+  align-self: stretch;
+  position: relative;
+  line-height: 24px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.semiDetachedHouse {
+  font-weight: 600;
+  color: var(--color-goldenrod-200);
+}
+.southfieldRoadOxford {
+  color: var(--color-gray-1000);
+}
+.information {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-9xs);
+}
+.bedIcon,
+.div1,
+.information {
+  position: relative;
+}
+.bedIcon {
+  height: 24px;
+  width: 24px;
+}
+.div1 {
+  line-height: 20px;
+  display: inline-block;
+  min-width: 8px;
+}
+.bed {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-9xs);
+}
+.bathubIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.div2 {
+  position: relative;
+  line-height: 20px;
+  display: inline-block;
+  min-width: 8px;
+}
+.bathroom {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-9xs);
+}
+.chairsIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.semiFurnished {
+  position: relative;
+  line-height: 20px;
+  display: inline-block;
+  min-width: 100px;
+}
+.furniture {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-9xs);
+}
+.features,
+.infoFeatures {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+}
+.features {
+  border-radius: var(--br-xs);
+  background-color: var(--shades-black);
+  border: 1px solid var(--light-black);
+  flex-direction: row;
+  justify-content: space-between;
+  padding: var(--padding-sm) var(--padding-base);
+  gap: var(--gap-xl);
+  font-size: var(--font-size-sm);
+  color: var(--absolute-white);
+}
+.infoFeatures {
+  border-radius: var(--br-11xl);
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 var(--padding-base);
+  gap: var(--gap-base);
+}
+.carouselsIcon {
+  height: 12px;
+  width: 12px;
+  position: relative;
+}
+.forSale {
+  position: relative;
+  line-height: 18px;
+  display: inline-block;
+  min-width: 43px;
+}
+.tags {
+  margin: 0 !important;
+  position: absolute;
+  top: 27px;
+  left: 0;
+  border-radius: var(--br-11xl);
+  background-color: var(--shades-off-white);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-9xs) var(--padding-5xs) var(--padding-9xs)
+    var(--padding-9xs);
+  gap: var(--gap-9xs);
+  white-space: nowrap;
+  z-index: 1;
+  font-size: var(--body-copy-b1-regular-size);
+  color: var(--shades-black);
+}
+.cardRectangleItem,
+.propertyCard {
+  position: relative;
+  border-radius: var(--br-11xl);
+}
+.propertyCard {
+  flex: 1;
+  box-shadow: var(--card-shadow-amb2);
+  background-color: var(--light-black);
+  border: 1px solid var(--light-gold-linear);
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 0 var(--padding-sm);
+  gap: var(--gap-base);
+  min-width: 300px;
+  min-height: 380px;
+  max-height: 484px;
+}
+.cardRectangleItem {
+  height: 292px;
+  width: 393px;
+  object-fit: cover;
+  display: none;
+  max-width: 100%;
+}
+.heartShapes {
+  height: 40px;
+  width: 40px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--shades-off-white);
+}
+.heartIcon {
+  height: 24px;
+  width: 24px;
+  position: absolute;
+  margin: 0 !important;
+  top: calc(50% - 12px);
+  left: calc(50% - 12px);
+  z-index: 1;
+}
+.bubbleIcons,
+.cardRectangle1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: var(--gap-3xs);
+}
+.bubbleIcons {
+  justify-content: flex-start;
+  position: relative;
+  z-index: 1;
+}
+.cardRectangle1 {
+  margin-left: -36.8px;
+  width: 393px;
+  flex: 1;
+  border-radius: var(--br-11xl);
+  justify-content: flex-end;
+  padding: var(--padding-base) var(--padding-34xl);
+  box-sizing: border-box;
+  background-image: url(/public/rectangle-34624569@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  min-width: 300px;
+  min-height: 208px;
+  max-width: 124%;
+  flex-shrink: 0;
+}
+.div3 {
+  align-self: stretch;
+  height: 32px;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  line-height: 32px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+}
+.estValue72501 {
+  width: 129px;
+  position: absolute;
+  margin: 0 !important;
+  top: 4px;
+  right: 0.3px;
+  line-height: 24px;
+  color: var(--shades-grey);
+  text-align: right;
+  display: none;
+  z-index: 1;
+}
+.penthouse {
+  height: 24px;
+  line-height: 24px;
+  font-weight: 600;
+  color: var(--color-goldenrod-200);
+  align-items: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.information1,
+.manchesterCity,
+.penthouse {
+  align-self: stretch;
+  display: flex;
+  position: relative;
+}
+.manchesterCity {
+  height: 24px;
+  line-height: 24px;
+  color: var(--color-gray-1000);
+  align-items: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.information1 {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-9xs);
+}
+.bedIcon1 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.bed1,
+.div4 {
+  display: flex;
+  align-items: center;
+}
+.div4 {
+  height: 20px;
+  width: 8px;
+  position: relative;
+  line-height: 20px;
+}
+.bed1 {
+  flex-direction: row;
+  justify-content: center;
+  gap: var(--gap-9xs);
+}
+.bathubIcon1 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.bathroom1,
+.div5 {
+  display: flex;
+  align-items: center;
+}
+.div5 {
+  height: 20px;
+  width: 8px;
+  position: relative;
+  line-height: 20px;
+}
+.bathroom1 {
+  flex-direction: row;
+  justify-content: center;
+  gap: var(--gap-9xs);
+}
+.chairsIcon1 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.furniture1,
+.semiFurnished1 {
+  display: flex;
+  align-items: center;
+}
+.semiFurnished1 {
+  height: 20px;
+  flex: 1;
+  position: relative;
+  line-height: 20px;
+}
+.furniture1 {
+  width: 134px;
+  flex-shrink: 0;
+  flex-direction: row;
+  justify-content: center;
+  gap: var(--gap-9xs);
+}
+.features1,
+.infoFeatures1 {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+}
+.features1 {
+  border-radius: var(--br-xs);
+  background-color: var(--shades-black);
+  border: 1px solid var(--color-gray-1700);
+  overflow-x: auto;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: var(--padding-sm) var(--padding-base);
+  gap: var(--gap-xl);
+  font-size: var(--font-size-sm);
+  color: var(--absolute-white);
+}
+.infoFeatures1 {
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 var(--padding-base);
+  gap: var(--gap-base);
+}
+.carouselsIcon1 {
+  height: 12px;
+  width: 12px;
+  position: relative;
+}
+.forSale1 {
+  height: 18px;
+  flex: 1;
+  position: relative;
+  line-height: 18px;
+  display: inline-block;
+}
+.tags1 {
+  width: 73px;
+  border-radius: 0 var(--br-xs) var(--br-xs) 0;
+  background-color: var(--shades-off-white);
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-9xs) var(--padding-5xs) var(--padding-9xs)
+    var(--padding-9xs);
+  box-sizing: border-box;
+  gap: var(--gap-9xs);
+  white-space: nowrap;
+  font-size: var(--body-copy-b1-regular-size);
+  color: var(--shades-black);
+  font-family: var(--body-copy-b4-medium);
+}
+.cardRectangleInner,
+.propertyCard1 {
+  flex: 1;
+  border-radius: var(--br-11xl);
+  overflow: hidden;
+}
+.propertyCard1 {
+  height: 484px;
+  box-shadow: var(--card-shadow-amb2);
+  background-color: var(--light-black);
+  border: 1px solid var(--light-gold-linear);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-base);
+  gap: var(--gap-base);
+  min-width: 300px;
+  min-height: 380px;
+  max-height: 484px;
+}
+.cardRectangleInner {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+.cardRectangle2,
+.div6 {
+  display: flex;
+  align-items: center;
+}
+.cardRectangle2 {
+  width: 393px;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  min-width: 300px;
+  min-height: 208px;
+  max-width: 124%;
+  flex-shrink: 0;
+}
+.div6 {
+  align-self: stretch;
+  height: 32px;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  line-height: 32px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+.estValue72502 {
+  width: 129px;
+  position: absolute;
+  margin: 0 !important;
+  top: 4px;
+  right: 0.3px;
+  line-height: 24px;
+  color: var(--shades-grey);
+  text-align: right;
+  display: none;
+  z-index: 1;
+}
+.semiDetachedHouse1 {
+  height: 24px;
+  line-height: 24px;
+  font-weight: 600;
+  color: var(--color-goldenrod-200);
+  align-items: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.information2,
+.semiDetachedHouse1,
+.southfieldRoadOxford1 {
+  align-self: stretch;
+  display: flex;
+  position: relative;
+}
+.southfieldRoadOxford1 {
+  height: 24px;
+  line-height: 24px;
+  color: var(--color-gray-1000);
+  align-items: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.information2 {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-9xs);
+}
+.bedIcon2 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.bed2,
+.div7 {
+  display: flex;
+  align-items: center;
+}
+.div7 {
+  height: 20px;
+  width: 8px;
+  position: relative;
+  line-height: 20px;
+}
+.bed2 {
+  flex-direction: row;
+  justify-content: center;
+  gap: var(--gap-9xs);
+}
+.bathubIcon2 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.bathroom2,
+.div8 {
+  display: flex;
+  align-items: center;
+}
+.div8 {
+  height: 20px;
+  width: 8px;
+  position: relative;
+  line-height: 20px;
+}
+.bathroom2 {
+  flex-direction: row;
+  justify-content: center;
+  gap: var(--gap-9xs);
+}
+.chairsIcon2 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.furniture2,
+.semiFurnished2 {
+  display: flex;
+  align-items: center;
+}
+.semiFurnished2 {
+  height: 20px;
+  flex: 1;
+  position: relative;
+  line-height: 20px;
+}
+.furniture2 {
+  width: 128px;
+  flex-shrink: 0;
+  flex-direction: row;
+  justify-content: center;
+  gap: var(--gap-9xs);
+}
+.features2,
+.infoFeatures2 {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+}
+.features2 {
+  border-radius: var(--br-xs);
+  background-color: var(--shades-black);
+  border: 1px solid var(--light-black);
+  overflow-x: auto;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: var(--padding-sm) var(--padding-mini) var(--padding-sm)
+    var(--padding-base);
+  gap: var(--gap-xl);
+  font-size: var(--font-size-sm);
+  color: var(--absolute-white);
+}
+.infoFeatures2 {
+  border-radius: var(--br-11xl);
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 var(--padding-base);
+  gap: var(--gap-base);
+}
+.bubbleIconsChild {
+  height: 40px;
+  width: 40px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--shades-off-white);
+}
+.bubbleIcons1,
+.heartIcon1 {
+  margin: 0 !important;
+  position: absolute;
+  z-index: 1;
+}
+.heartIcon1 {
+  height: 24px;
+  width: 24px;
+  top: calc(50% - 12px);
+  left: calc(50% - 12px);
+}
+.bubbleIcons1 {
+  width: 40px;
+  height: 40px;
+  top: 16px;
+  right: 16px;
+  border-radius: var(--br-11xl);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.carouselsIcon2 {
+  height: 12px;
+  width: 12px;
+  position: relative;
+}
+.forSale2 {
+  position: relative;
+  line-height: 18px;
+}
+.tags2 {
+  margin: 0 !important;
+  position: absolute;
+  top: 27px;
+  left: 0;
+  border-radius: var(--br-11xl);
+  background-color: var(--shades-off-white);
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-9xs) var(--padding-5xs) var(--padding-9xs)
+    var(--padding-9xs);
+  gap: var(--gap-9xs);
+  white-space: nowrap;
+  z-index: 3;
+  font-size: var(--body-copy-b1-regular-size);
+  color: var(--shades-black);
+  font-family: var(--body-copy-b4-medium);
+}
+.propertyCard2,
+.rectangleIcon {
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+}
+.propertyCard2 {
+  height: 484px;
+  box-shadow: var(--card-shadow-amb2);
+  border-radius: var(--br-11xl);
+  background-color: var(--light-black);
+  border: 1px solid var(--light-gold-linear);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 0 var(--padding-base);
+  gap: var(--gap-base);
+  min-width: 300px;
+  min-height: 380px;
+  max-height: 484px;
+}
+.rectangleIcon {
+  height: 292px;
+  border-radius: var(--br-xs);
+  max-width: 100%;
+  object-fit: cover;
+  display: none;
+}
+.bubbleIconsItem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--shades-off-white);
+  width: 100%;
+  height: 100%;
+}
+.heartIcon2 {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  width: 24px;
+  height: 24px;
+  z-index: 1;
+}
+.bubbleIcons2 {
+  height: 40px;
+  width: 40px;
+  position: relative;
+  z-index: 1;
+}
+.cardRectangle3 {
+  margin-right: -36.8px;
+  width: 393px;
+  flex: 1;
+  border-radius: var(--br-xs);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: var(--padding-base) var(--padding-34xl);
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+  background-image: url(/public/rectangle-34624569-21@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  min-width: 300px;
+  min-height: 208px;
+  max-width: 124%;
+  flex-shrink: 0;
+}
+.div9 {
+  align-self: stretch;
+  height: 32px;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  line-height: 32px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+}
+.estValue72503 {
+  width: 129px;
+  position: absolute;
+  margin: 0 !important;
+  top: 4px;
+  right: 0.3px;
+  line-height: 24px;
+  color: var(--shades-grey);
+  text-align: right;
+  display: none;
+  z-index: 1;
+}
+.bungalow {
+  height: 24px;
+  line-height: 24px;
+  font-weight: 600;
+  color: var(--color-goldenrod-200);
+  align-items: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.bungalow,
+.information3,
+.leedsCityCenter {
+  align-self: stretch;
+  display: flex;
+  position: relative;
+}
+.leedsCityCenter {
+  height: 24px;
+  line-height: 24px;
+  color: var(--color-gray-1000);
+  align-items: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.information3 {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-9xs);
+}
+.bedIcon3 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.bed3,
+.div10 {
+  display: flex;
+  align-items: center;
+}
+.div10 {
+  height: 20px;
+  width: 8px;
+  position: relative;
+  line-height: 20px;
+}
+.bed3 {
+  flex-direction: row;
+  justify-content: center;
+  gap: var(--gap-9xs);
+}
+.bathubIcon3 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.bathroom3,
+.div11 {
+  display: flex;
+  align-items: center;
+}
+.div11 {
+  height: 20px;
+  width: 8px;
+  position: relative;
+  line-height: 20px;
+}
+.bathroom3 {
+  flex-direction: row;
+  justify-content: center;
+  gap: var(--gap-9xs);
+}
+.chairsIcon3 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.furniture3,
+.semiFurnished3 {
+  display: flex;
+  align-items: center;
+}
+.semiFurnished3 {
+  height: 20px;
+  flex: 1;
+  position: relative;
+  line-height: 20px;
+}
+.furniture3 {
+  width: 128px;
+  flex-shrink: 0;
+  flex-direction: row;
+  justify-content: center;
+  gap: var(--gap-9xs);
+}
+.features3,
+.infoFeatures3 {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+}
+.features3 {
+  border-radius: var(--br-xs);
+  background-color: var(--shades-black);
+  border: 1px solid var(--light-black);
+  overflow-x: auto;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: var(--padding-sm) var(--padding-base);
+  gap: var(--gap-xl);
+  font-size: var(--font-size-sm);
+}
+.infoFeatures3 {
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 var(--padding-base);
+  gap: var(--gap-base);
+}
+.carouselsIcon3 {
+  height: 12px;
+  width: 12px;
+  position: relative;
+}
+.forSale3 {
+  height: 18px;
+  flex: 1;
+  position: relative;
+  line-height: 18px;
+  display: inline-block;
+}
+.tags3 {
+  width: 73px;
+  border-radius: 0 var(--br-xs) var(--br-xs) 0;
+  background-color: var(--shades-off-white);
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-9xs) var(--padding-5xs) var(--padding-9xs)
+    var(--padding-9xs);
+  box-sizing: border-box;
+  gap: var(--gap-9xs);
+  white-space: nowrap;
+  font-size: var(--body-copy-b1-regular-size);
+  color: var(--shades-black);
+  font-family: var(--body-copy-b4-medium);
+}
+.propertyCard3,
+.propertyCardParent {
+  display: flex;
+  justify-content: flex-start;
+}
+.propertyCard3 {
+  height: 484px;
+  flex: 1;
+  box-shadow: var(--card-shadow-amb2);
+  border-radius: var(--br-11xl);
+  background-color: var(--light-black);
+  border: 1px solid var(--light-gold-linear);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 0 0 var(--padding-base);
+  gap: var(--gap-base);
+  min-width: 300px;
+  min-height: 380px;
+  max-height: 484px;
+  color: var(--absolute-white);
+}
+.propertyCardParent {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 24px 29px;
+  min-height: 558px;
+  flex-shrink: 0;
+  debug_commit: 448091;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-aliceblue-100);
+  font-family: var(--font-manrope);
+}
+@media screen and (max-width: 450px) {
+  .div {
+    font-size: var(--font-size-lgi);
+    line-height: 26px;
+  }
+  .features {
+    flex-wrap: wrap;
+  }
+  .div3,
+  .div6,
+  .div9 {
+    font-size: var(--font-size-lgi);
+    line-height: 26px;
+  }
+}

@@ -1,0 +1,501 @@
+.equixtoken {
+  margin: 0;
+  position: relative;
+  font-size: var(--font-size-11xl);
+  letter-spacing: -0.05em;
+  line-height: 110%;
+  font-weight: 800;
+  font-family: var(--font-manrope);
+  color: var(--color-black);
+  text-align: left;
+}
+.equixtokenWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) var(--padding-4xs-3) 0;
+}
+.signUpTo,
+.startForFree {
+  position: relative;
+  font-family: var(--font-manrope);
+  text-align: left;
+}
+.startForFree {
+  text-decoration: none;
+  width: 118px;
+  font-size: var(--font-size-base);
+  line-height: 24px;
+  font-weight: 500;
+  color: var(--text-color);
+  display: inline-block;
+}
+.signUpTo {
+  margin: 0;
+  font-size: var(--font-size-14xl);
+  line-height: 45px;
+  font-weight: 700;
+  color: var(--tailgrids-black-color);
+}
+.startForFreeParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) var(--padding-sm-3) 0;
+  box-sizing: border-box;
+  gap: var(--gap-8xs);
+  max-width: 100%;
+}
+.name {
+  text-decoration: none;
+  width: 56px;
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 24px;
+  font-weight: 500;
+  font-family: var(--font-manrope);
+  color: var(--dark);
+  text-align: left;
+  display: inline-block;
+}
+.frameChild {
+  height: 50.7px;
+  width: 428px;
+  position: relative;
+  border-radius: var(--br-5xs);
+  background-color: var(--absolute-white);
+  border: 1px solid var(--stroke);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.enterYourFull {
+  width: 147px;
+  border: 0;
+  outline: 0;
+  font-family: var(--font-manrope);
+  font-size: var(--font-size-base);
+  background-color: var(--buttongrad);
+  height: 24px;
+  position: relative;
+  line-height: 24px;
+  color: var(--color-slategray-200);
+  text-align: left;
+  display: inline-block;
+  padding: 0;
+  z-index: 1;
+}
+.userAlt4Icon {
+  height: 19.9px;
+  width: 22px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.nameParent,
+.rectangleParent {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.rectangleParent {
+  border-radius: var(--br-5xs);
+  background-color: var(--absolute-white);
+  border: 1px solid var(--stroke);
+  box-sizing: border-box;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: var(--padding-sm) var(--padding-2xl) var(--padding-3xs)
+    var(--padding-5xl);
+  gap: var(--gap-xl);
+}
+.nameParent {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-6xs-5);
+}
+.email {
+  text-decoration: none;
+  width: 52px;
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 24px;
+  font-weight: 500;
+  font-family: var(--font-manrope);
+  color: var(--dark);
+  text-align: left;
+  display: inline-block;
+}
+.frameItem {
+  height: 50.7px;
+  width: 428px;
+  position: relative;
+  border-radius: var(--br-5xs);
+  background-color: var(--absolute-white);
+  border: 1px solid var(--color-orange);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.enterYourEmail {
+  width: 119px;
+  border: 0;
+  outline: 0;
+  font-family: var(--font-manrope);
+  font-size: var(--font-size-base);
+  background-color: var(--buttongrad);
+  height: 24px;
+  position: relative;
+  line-height: 24px;
+  color: var(--color-slategray-200);
+  text-align: left;
+  display: inline-block;
+  padding: 0;
+  z-index: 1;
+}
+.envelopeIcon {
+  height: 19.9px;
+  width: 22px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.emailParent,
+.rectangleGroup {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.rectangleGroup {
+  border-radius: var(--br-5xs);
+  background-color: var(--absolute-white);
+  border: 1px solid var(--color-orange);
+  box-sizing: border-box;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: var(--padding-sm) var(--padding-2xl) var(--padding-3xs)
+    var(--padding-5xl);
+  gap: var(--gap-xl);
+}
+.emailParent {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-6xs-5);
+}
+.password {
+  width: 90px;
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 24px;
+  font-weight: 500;
+  font-family: var(--font-manrope);
+  color: var(--dark);
+  text-align: left;
+  display: inline-block;
+}
+.frameInner {
+  height: 50.7px;
+  width: 428px;
+  position: relative;
+  border-radius: var(--br-5xs);
+  background-color: var(--absolute-white);
+  border: 1px solid var(--stroke);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.enterYourPassword {
+  width: 151px;
+  border: 0;
+  outline: 0;
+  font-family: var(--font-manrope);
+  font-size: var(--font-size-base);
+  background-color: var(--buttongrad);
+  height: 24px;
+  position: relative;
+  line-height: 24px;
+  color: var(--color-slategray-200);
+  text-align: left;
+  display: inline-block;
+  padding: 0;
+  z-index: 1;
+}
+.lockAltIcon {
+  height: 19.9px;
+  width: 22px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.passwordParent,
+.rectangleContainer {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.rectangleContainer {
+  border-radius: var(--br-5xs);
+  background-color: var(--absolute-white);
+  border: 1px solid var(--stroke);
+  box-sizing: border-box;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: var(--padding-sm) var(--padding-2xl) var(--padding-3xs)
+    var(--padding-5xl);
+  gap: var(--gap-xl);
+}
+.passwordParent {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-4xs-6);
+}
+.reTypePassword {
+  width: 169px;
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 24px;
+  font-weight: 500;
+  font-family: var(--font-manrope);
+  color: var(--dark);
+  text-align: left;
+  display: inline-block;
+}
+.rectangleDiv {
+  height: 50.7px;
+  width: 428px;
+  position: relative;
+  border-radius: var(--br-5xs);
+  background-color: var(--absolute-white);
+  border: 1px solid var(--stroke);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.reEnterYourPassword {
+  width: 177px;
+  border: 0;
+  outline: 0;
+  font-family: var(--font-manrope);
+  font-size: var(--font-size-base);
+  background-color: var(--buttongrad);
+  height: 24px;
+  position: relative;
+  line-height: 24px;
+  color: var(--color-slategray-200);
+  text-align: left;
+  display: inline-block;
+  padding: 0;
+  z-index: 1;
+}
+.lockAltIcon1 {
+  height: 19.9px;
+  width: 22px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.groupDiv,
+.reTypePasswordParent {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.groupDiv {
+  border-radius: var(--br-5xs);
+  background-color: var(--absolute-white);
+  border: 1px solid var(--stroke);
+  flex-direction: row;
+  justify-content: space-between;
+  padding: var(--padding-sm) var(--padding-2xl) var(--padding-3xs)
+    var(--padding-5xl);
+  gap: var(--gap-xl);
+}
+.reTypePasswordParent {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-5xs);
+  gap: var(--gap-4xs-6);
+}
+.createAccountButtonBackgrou {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-goldenrod-300);
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+.createAccount {
+  position: absolute;
+  top: 14px;
+  left: calc(50% - 72px);
+  font-size: var(--font-size-base);
+  line-height: 24px;
+  display: inline-block;
+  font-family: var(--font-manrope);
+  color: var(--color-gray-900);
+  text-align: center;
+  width: 144px;
+  height: 22px;
+  z-index: 1;
+}
+.createAccountButtonBackgrouParent {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--buttongrad);
+  height: 50.7px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+}
+.frameChild1,
+.frameWrapper {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frameWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-9xs-5);
+}
+.frameChild1 {
+  height: 50.7px;
+  width: 428px;
+  position: relative;
+  border-radius: var(--br-5xs);
+  background-color: var(--gray);
+  border: 1px solid var(--stroke);
+  display: none;
+}
+.google11 {
+  width: 20px;
+  height: 18.1px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.google11Wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs-2) 0 0;
+}
+.signUpWith {
+  margin-left: -10px;
+  width: 191px;
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 24px;
+  font-weight: 500;
+  font-family: var(--font-manrope);
+  color: var(--text-color);
+  text-align: center;
+  display: inline-block;
+  z-index: 1;
+}
+.frameContainer,
+.groupButton,
+.signUpWithGoogleWrapper {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.signUpWithGoogleWrapper {
+  width: 181px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0;
+}
+.frameContainer,
+.groupButton {
+  flex-direction: row;
+  max-width: 100%;
+}
+.groupButton {
+  cursor: pointer;
+  border: 1px solid var(--stroke);
+  padding: var(--padding-smi) var(--padding-xl) var(--padding-smi)
+    var(--padding-2xl);
+  background-color: var(--gray);
+  flex: 1;
+  border-radius: var(--br-5xs);
+  justify-content: center;
+}
+.frameContainer {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-5xs-7);
+}
+.alreadyHaveAn,
+.signIn {
+  font-weight: 500;
+  font-family: var(--font-manrope);
+  color: var(--text-color);
+}
+.signIn {
+  font-weight: 800;
+  color: var(--color-goldenrod-300);
+}
+.alreadyHaveAnContainer {
+  width: 312px;
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 24px;
+  text-align: left;
+  display: inline-block;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.alreadyHaveAnAccountSignWrapper,
+.frameParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.frameParent {
+  margin: 0;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-mini-7);
+  max-width: 100%;
+}
+@media screen and (max-width: 1050px) {
+  .equixtoken {
+    font-size: var(--font-size-5xl);
+    line-height: 26px;
+  }
+  .signUpTo {
+    font-size: var(--font-size-7xl);
+    line-height: 36px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .equixtoken {
+    font-size: var(--body-copy-b4-medium-size);
+    line-height: 20px;
+  }
+  .signUpTo {
+    font-size: var(--font-size-xl);
+    line-height: 27px;
+  }
+}
