@@ -1,5 +1,5 @@
 # Equixtoken dApp
-Figma file with the designs are found here<code><a href="[https://nodejs.org/en/download/](https://www.figma.com/design/pHSt4ARuhaOZ8dhwwB20Ko/Equixtoken-dApp?node-id=0-1&t=YFZg2gEOcttBco0v-1)">Prototype</a></code>
+Figma file with the designs are found here<code><a href="https://www.figma.com/design/pHSt4ARuhaOZ8dhwwB20Ko/Equixtoken-dApp?node-id=0-1&t=YFZg2gEOcttBco0v-1">Prototype</a></code>
 
   Note: Please ensure you have installed <code><a href="https://nodejs.org/en/download/">nodejs</a></code>
 
